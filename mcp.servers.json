@@ -1,0 +1,4 @@
+{
+  "_comment": "Declared MCP server registrations for the user-scope config (~/.claude.json mcpServers). This file is the source of truth for HOW each server in mcps/ should be registered; apply entries to the live config manually or via `claude mcp add` (a check script may automate the comparison later). Command paths use ~/.claude/mcps/<mcp-name>/..., which resolves into this repo via the per-mcp symlinks created by scripts/link-mcp.sh.",
+  "mcpServers": {}
+}
